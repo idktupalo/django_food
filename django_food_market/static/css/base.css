@@ -1,0 +1,80 @@
+html{
+    font-family: 'Nunito', sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+.header_wrapper{
+    height: 80vh;
+    width: 98.8vw;
+    background-image: url(../images/base/header.svg);
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+/* Header links */
+
+.header_top{
+    display: flex;
+    justify-content: center;
+    padding: 3vh 0;
+}
+
+.header_top-item{
+    color: black;
+    margin: 0 1vw;
+    font-weight: 800;
+}
+
+.header_top-item:hover{
+    background-color: azure; 
+}
+
+/* Header content */
+
+.header_content{
+    display: flex;
+    width: 100%;
+}
+
+.header_content-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+}
+
+.header_food-img{
+    height: 90%;
+    width: 70%;
+}
+
+.header_content-right{
+    margin-top: 10%;
+    width: 40%;
+}
+
+.header_content-title,
+.header_content-descr{
+    margin: 0;
+    padding: 0;
+}
+
+.header_content-title{
+    font-size: 3vw ;
+}
+
+.header_content-descr{
+    font-size: 2vw ;
+}

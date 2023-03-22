@@ -1,0 +1,29 @@
+#menu{
+    display: grid;
+    margin: 5vh;
+    gap: 2vh;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(15, 15, 15);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 5px;
+    /* padding: 0.5rem; */
+    height: 20rem;
+}
+
+.food_card-img{
+   width: 13vw; 
+   height: 23vh; 
+}
+
+.card-btn{
+    border-radius: 5px;
+    background-color: yellow;
+    padding: 1vh;
+}

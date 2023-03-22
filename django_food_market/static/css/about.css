@@ -1,0 +1,36 @@
+#about{
+    height: 80vh;
+    width: 98.8vw;
+    background-image: url(../images/base/about.svg);
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    /* margin-top: 10vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-left{
+    width: 50%;
+    margin-left: 4vw;
+    color:whitesmoke;
+    font-size: 1.5vw;
+}
+
+.about-left-big{
+    margin:0; 
+    font-size: 4vw;
+    font-weight: 900;
+}
+
+.about-left_text{
+    margin: 0;
+    padding: 0;
+}
+
+.about-right{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}

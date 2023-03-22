@@ -1,0 +1,24 @@
+#delivery{
+    height: 80vh;
+    width: 98.8vw;
+    background-image: url(../images/base/delivery.svg);
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    display: flex;
+}
+
+.delivery-text{
+    width: 50%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.delivery-map{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

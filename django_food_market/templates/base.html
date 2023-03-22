@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Django Food</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'css/base.css' %}">
+    <link rel="stylesheet" href="{% static 'css/about.css' %}">
+    <link rel="stylesheet" href="{% static 'css/menu.css' %}">
+    <link rel="stylesheet" href="{% static 'css/delivery.css' %}">
+</head>
+<body>
+    <div class="header_top">
+        <a class="header_top-item" href="#about">About</a>
+        <a class="header_top-item" href="#menu">Menu</a>
+        <a class="header_top-item" href="#delivery">Delivery</a>
+        <a class="header_top-item" href="">Work</a>
+        <a class="header_top-item" href="">Profile</a>
+    </div>
+    <div class="header_wrapper">
+        <div class="header_content">
+            <div class="header_content-left"> 
+                <img src="{% static 'images/header/header_food_1.png' %}" alt="food" class="header_food-img">
+            </div>
+            <div class="header_content-right">
+                <h1 class="header_content-title">DjangoEats</h2>
+                <h2 class="header_content-descr">More than food delivery</h2>
+
+            </div>
+        </div>
+    </div>
+    <section id="about">
+        <div class="about-left">
+            <h2 class="about-left_text">We have collected</h2>
+            <span class="about-left-big">THE MOST</span> 
+            <h2 class="about-left_text">delicious dishes.</h2>
+            <h2 class="about-left_text">From light desserts to hearty meat dishes.</h2>
+        </div>
+        <div class="about-right">
+            <img src="{% static 'images/header/header_food.png' %}" alt="food" class="header_food-img">
+        </div>
+    </section>
+
+    <section id="menu">
+        <div class="card">
+            <img src="{% static 'images/header/header_food_1.png' %}" alt="burger" class="food_card-img">
+            Burger
+            <h3 style="margin: 0;">Price: 200 UAH</h3>
+            <div class="card_rating" style="margin: 1vh 0;">
+                <img src="{% static 'images/header/star.svg' %}" alt="star" width="20px;" height="20px;">
+                <img src="{% static 'images/header/star.svg' %}" alt="star" width="20px;" height="20px;">
+                <img src="{% static 'images/header/star.svg' %}" alt="star" width="20px;" height="20px;">
+            </div>
+            <a class="card-btn" href="">
+                View details
+            </a>
+        </div>
+        <div class="card">
+            <img src="{% static 'images/header/header_food.png' %}" alt="burger" class="food_card-img">
+            Ovsianka
+            <h3 style="margin: 0;">Price: 100 UAH</h3>
+            <div class="card_rating" style="margin: 1vh 0;">
+                <img src="{% static 'images/header/star.svg' %}" alt="star" width="20px;" height="20px;">
+                <img src="{% static 'images/header/star.svg' %}" alt="star" width="20px;" height="20px;">
+                <img src="{% static 'images/header/star.svg' %}" alt="star" width="20px;" height="20px;">
+                <img src="{% static 'images/header/star.svg' %}" alt="star" width="20px;" height="20px;">
+                <img src="{% static 'images/header/star.svg' %}" alt="star" width="20px;" height="20px;">
+            </div>
+            <a class="card-btn" href="">
+                View details
+            </a>
+        </div>
+        <div class="card">
+            <img src="{% static 'images/header/header_food_2.png' %}" alt="burger" class="food_card-img">
+            Pizza
+            <h3 style="margin: 0;">Price: 150 UAH</h3>
+            <div class="card_rating" style="margin: 1vh 0;">
+                <img src="{% static 'images/header/star.svg' %}" alt="star" width="20px;" height="20px;">
+            </div>
+            <a class="card-btn" href="">
+                View details
+            </a>
+        </div>
+        <div class="card">
+            <img src="{% static 'images/header/header_food_3.png' %}" alt="burger" class="food_card-img">
+            Fruits Pie
+            <h3 style="margin: 0;">Price: 175 UAH</h3>
+            <div class="card_rating" style="margin: 1vh 0;">
+                <img src="{% static 'images/header/star.svg' %}" alt="star" width="20px;" height="20px;">
+                <img src="{% static 'images/header/star.svg' %}" alt="star" width="20px;" height="20px;">
+                <img src="{% static 'images/header/star.svg' %}" alt="star" width="20px;" height="20px;">
+                <img src="{% static 'images/header/star.svg' %}" alt="star" width="20px;" height="20px;">
+            </div>
+            <a class="card-btn" href="">
+                View details
+            </a>
+        </div>
+        <div class="card">
+            <img src="{% static 'images/header/header_food.png' %}" alt="burger" class="food_card-img">
+            Ovsianka
+            <h3 style="margin: 0;">Price: 100 UAH</h3>
+            <div class="card_rating" style="margin: 1vh 0;">
+                <img src="{% static 'images/header/star.svg' %}" alt="star" width="20px;" height="20px;">
+                <img src="{% static 'images/header/star.svg' %}" alt="star" width="20px;" height="20px;">
+                <img src="{% static 'images/header/star.svg' %}" alt="star" width="20px;" height="20px;">
+                <img src="{% static 'images/header/star.svg' %}" alt="star" width="20px;" height="20px;">
+                <img src="{% static 'images/header/star.svg' %}" alt="star" width="20px;" height="20px;">
+            </div>
+            <a class="card-btn" href="">
+                View details
+            </a>
+        </div>
+        <div class="card">
+            <img src="{% static 'images/header/header_food_2.png' %}" alt="burger" class="food_card-img">
+            Pizza
+            <h3 style="margin: 0;">Price: 150 UAH</h3>
+            <div class="card_rating" style="margin: 1vh 0;">
+                <img src="{% static 'images/header/star.svg' %}" alt="star" width="20px;" height="20px;">
+            </div>
+            <a class="card-btn" href="">
+                View details
+            </a>
+        </div>
+    </section>
+    <section id="delivery">
+        <div class="delivery-text">
+            text
+        </div>
+        <div class="delivery-map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d325518.68784030486!2d30.25250970541499!3d50.4016990433676!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cf4ee15a4505%3A0x764931d2170146fe!2sKyiv%2C%2002000!5e0!3m2!1sen!2sua!4v1679526575449!5m2!1sen!2sua" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+</body>
+</html>
